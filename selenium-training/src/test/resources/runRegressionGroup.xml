@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SmokeGroup" verbose="1" parallel="methods" thread-count="2">
+    <test name="SmokeTest">
+        <groups>
+            <run>
+                <include name="regression"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.epam.chmutov.homework2.task2"/>
+        </packages>
+    </test>
+</suite>

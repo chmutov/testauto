@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TaskThree" verbose="1">
+    <test name="TaskThree">
+        <classes>
+            <class name="com.epam.chmutov.homework2.Task3Test">
+                <methods>
+                    <include name="navigateToHomePage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
